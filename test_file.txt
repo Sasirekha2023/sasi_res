@@ -1,0 +1,15 @@
+create or replace trigger t1 before insert on emp
+newempid	NUMBER;
+BEGIN
+	
+:new.empid := empseq.nextval;
+
+end;
+
+currval
+nextval
+
+1	Education	Require final sem marksheet for roll no proof and mail confirmation for YOP proof
+2	Current Employment	require tiering details for HOPESTONE CONSULTING
+3	Previous Employment	Require service letter for STERLING SOFTWARE PRIVATE LIMITED
+4	LOA	Require LOA name as per JAF
